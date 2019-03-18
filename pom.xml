@@ -30,11 +30,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--mysql-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!--mybatis-->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -45,6 +48,15 @@
 			<artifactId>mybatis-generator-core</artifactId>
 			<version>1.3.5</version>
 		</dependency>
+
+		<!--mybatis-page -->
+		<dependency>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper-spring-boot-starter</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+
+
 
 	</dependencies>
 
